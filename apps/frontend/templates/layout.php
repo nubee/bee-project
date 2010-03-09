@@ -9,6 +9,16 @@
     <?php include_javascripts() ?>
   </head>
   <body>
-    <?php echo $sf_content ?>
+    <div id="page">
+      <div id="header">
+        <h1><?php echo link_to('Bee Project', '@homepage') ?></h1>
+      </div>
+      <div id="content">
+        <?php echo $sf_content ?>
+      </div>
+      <div id="footer">
+        &copy; <?php echo date('Y'); ?> nubee.org
+      </div>
+    </div>
   </body>
 </html>

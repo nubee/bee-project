@@ -33,3 +33,6 @@ all:
 
     # Enable the database manager
     use_database:           true
+
+    # Helpers included in all templates by default
+    standard_helpers:       [Partial, Cache, I18N, Markdown]
