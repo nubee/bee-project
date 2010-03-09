@@ -2,6 +2,10 @@
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
 # default rules
+show_page:
+  url:   /docs/:page
+  param: { module: content, action: doc }
+
 homepage:
   url:   /
   param: { module: content, action: index }
