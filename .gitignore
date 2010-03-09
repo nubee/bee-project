@@ -1,0 +1,6 @@
+cache/*
+cache/**/*
+log/*
+log/**/*
+.netbeans/nbproject/private/*
+
