@@ -1,6 +1,6 @@
-cache/*
-cache/**/*
-log/*
-log/**/*
+bee-project/cache/*
+bee-project/cache/**/*
+bee-project/log/*
+bee-project/log/**/*
 .netbeans/nbproject/private/*
 
