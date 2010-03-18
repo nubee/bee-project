@@ -19,11 +19,8 @@ goto init
 
 if "%PHP_COMMAND%" == "" goto no_phpcommand
 
-if "%SCRIPT_DIR%" == "" (
-  %PHP_COMMAND% "symfony" %*
-) else (
-  %PHP_COMMAND% "%SCRIPT_DIR%\symfony" %*
-)
+%PHP_COMMAND% "bee-project\symfony" %*
+
 goto cleanup
 
 :no_phpcommand
