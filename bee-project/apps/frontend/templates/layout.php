@@ -3,6 +3,7 @@
   <head>
     <?php include_http_metas() ?>
     <?php include_metas() ?>
+    <meta name="google-site-verification" content="JNJTZ2Oe305IqCR9tG8574xVfmUAV0JwH42IXDn3Nnw" />
     <?php include_title() ?>
     <link rel="shortcut icon" href="/favicon.ico" />
     <?php include_stylesheets() ?>
