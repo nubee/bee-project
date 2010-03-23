@@ -4,6 +4,11 @@ class contentActions extends sfActions
 {
   public function executeIndex(sfWebRequest $request)
   {
+    $file = sfConfig::get('sf_data_dir') . '/docs/index.txt';
+    $this->html = sfMarkdown::doConvertFile($file);
+
+    $this->getResponse()->setTitle('Bee Project - Homepage');
+    $this->setTemplate('doc');
   }
 
   public function executeDoc(sfWebRequest $request)
@@ -12,6 +17,6 @@ class contentActions extends sfActions
 
     $this->html = sfMarkdown::doConvertFile($file);
 
-    $this->getResponse()->setTitle('Bee Project');
+    $this->getResponse()->setTitle('Bee Project - ' . $request->getParameter('page'));
   }
 }

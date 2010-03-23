@@ -1,17 +1,19 @@
-I start my morning with a cup of coffee and
-[The New York Times][NY Times].
+Welcome to the bee project.
+====================
 
-[ny times]: http://www.nytimes.com/
+[bee][bee] is a project automation tool, that makes it easy to automate tasks on
+your projects, very similar to [Apache ant][ant] but, since it's developed on
+PHP, it's much more flexible, and it's expandable in a easier way.
 
-![alt text](/uploads/logo2.png "Title")
+How bee works
+--------------------
 
-I strongly recommend against using any `<blink>` tags.
+[bee][bee] is based on the same concept of [symfony tasks][symfony], so it can
+define commands that can have options, attributes, aliases, have full
+support of an exception engine, with trace and verbosity, and a colored
+interface (even on windows!).
 
-I wish SmartyPants used named entities like `&mdash;`
-instead of decimal-encoded entites like `&#8212;`.
-
-This is a normal paragraph:
-
-    This is a code block.
-
+[ant]: http://ant.apache.org
+[bee]: http://www.bee-project.org
+[symfony]: http://www.symfony-project.org
 

@@ -18,7 +18,7 @@
         <?php echo $sf_content ?>
       </div>
       <div id="footer">
-        &copy; <?php echo date('Y'); ?> bee.it
+        &copy; <?php echo date('Y'); ?> bee.com
       </div>
     </div>
   </body>
