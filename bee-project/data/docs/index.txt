@@ -13,6 +13,12 @@ define commands that can have options, attributes, aliases, have full
 support of an exception engine, with trace and verbosity, and a colored
 interface (even on windows!).
 
+Let's see a common usage
+
+    bee list
+
+will show all the available commands.
+
 [ant]: http://ant.apache.org
 [bee]: http://www.bee-project.org
 [symfony]: http://www.symfony-project.org
